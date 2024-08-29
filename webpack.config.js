@@ -1,4 +1,5 @@
 const path = require("path");
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   mode: "production",
@@ -8,7 +9,7 @@ module.exports = {
     path: path.resolve(__dirname, "build"),
   },
   resolve: {
-    extensions: [".ts", ".tsx", ".js"],
+    extensions: ['.ts', '.tsx', '.js', '.jsx'],
   },
   module: {
     rules: [
@@ -31,4 +32,10 @@ module.exports = {
     port: 3000,
     historyApiFallback: true,
   },
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: './public/index.html', 
+      filename: 'index.html', 
+    }),
+  ],
 };
