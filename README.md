@@ -2,6 +2,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 
+[trip-finder.webm](https://github.com/user-attachments/assets/cc24388c-15ab-436d-a5c5-e85f75a6db69)
+
+
 ## Technologies Used
 
 - React + TypeScript;
