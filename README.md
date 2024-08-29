@@ -2,6 +2,20 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+## Technologies Used
+
+- React + TypeScript;
+- Jest;
+- Testing Library;
+- Webpack;
+- ESLint;
+- Husky;
+- React Bootstrap;
+- Bootstrap;
+- Styled Components;
+- FontAwesome;
+
 ## Available Scripts
 
 In the project directory, you can run:
