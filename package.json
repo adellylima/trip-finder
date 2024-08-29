@@ -16,7 +16,7 @@
   },
   "scripts": {
     "start": "webpack serve --config webpack.config.js",
-    "build": "webpack --config webpack.config.js",
+    "build": "webpack --config webpack.config.js && echo '/* /index.html 200' > build/_redirects",
     "test": "react-scripts test",
     "preset": "ts-jest",
     "testEnvironment": "node",
